@@ -189,7 +189,7 @@ dl.row-item {
 .forum_link:before							{content: "\f08e";}
 											/* Speech Bubble */
 .forum_read:before							{content: "\f03a";}
-.forum_read_subforum:before					{content: "\f03a";}
+.forum_read_subforum:before					{background-image: url("./images/forum_read_subforum.png");}
 .forum_unread:before						{content: "\f03a";}
 .forum_unread_subforum:before				{content: "\f03a";}
 											/* Pin */
