@@ -168,64 +168,64 @@ input#search_keywords:-moz-placeholder { /* Firefox 18- */
 }
 
 /* Set the icons */							/* Megaphone */
-.global_read:before							{content: "\f0a1";}
-.global_read_mine:before					{content: "\f0a1";}
-.global_read_locked:before					{content: "\f0a1";}
-.global_read_locked_mine:before				{content: "\f0a1";}
-.global_unread:before						{content: "\f0a1";}
-.global_unread_mine:before					{content: "\f0a1";}
-.global_unread_locked:before				{content: "\f0a1";}
-.global_unread_locked_mine:before			{content: "\f0a1";}
+.global_read:before							{content: "";}
+.global_read_mine:before					{content: "";}
+.global_read_locked:before					{content: "";}
+.global_read_locked_mine:before				{content: "";}
+.global_unread:before						{content: "";}
+.global_unread_mine:before					{content: "";}
+.global_unread_locked:before				{content: "";}
+.global_unread_locked_mine:before			{content: "";}
 											/* Megaphone */
-.announce_read:before						{content: "\f0a1";}
-.announce_read_mine:before					{content: "\f0a1";}
-.announce_read_locked:before				{content: "\f0a1";}
-.announce_read_locked_mine:before			{content: "\f0a1";}
-.announce_unread:before						{content: "\f0a1";}
-.announce_unread_mine:before				{content: "\f0a1";}
-.announce_unread_locked:before				{content: "\f0a1";}
-.announce_unread_locked_mine:before			{content: "\f0a1";}
+.announce_read:before						{content: "";}
+.announce_read_mine:before					{content: "";}
+.announce_read_locked:before				{content: "";}
+.announce_read_locked_mine:before			{content: "";}
+.announce_unread:before						{content: "";}
+.announce_unread_mine:before				{content: "";}
+.announce_unread_locked:before				{content: "";}
+.announce_unread_locked_mine:before			{content: "";}
 											/* External link */
-.forum_link:before							{content: "\f08e";}
+.forum_link:before							{content: "";}
 											/* Speech Bubble */
-.forum_read:before							{content: "\f03a";}
-.forum_read_subforum:before					{content: "\f03a";}
-.forum_unread:before						{content: "\f03a";}
-.forum_unread_subforum:before				{content: "\f03a";}
+.forum_read:before							{content: "";}
+.forum_read_subforum:before					{content: "";}
+.forum_unread:before						{content: "";}
+.forum_unread_subforum:before				{content: "";}
 											/* Pin */
-.sticky_read:before							{content: "\f08d";}
-.sticky_read_mine:before					{content: "\f08d";}
-.sticky_read_locked:before					{content: "\f08d";}
-.sticky_read_locked_mine:before				{content: "\f08d";}
-.sticky_unread:before						{content: "\f08d";}
-.sticky_unread_mine:before					{content: "\f08d";}
-.sticky_unread_locked:before				{content: "\f08d";}
-.sticky_unread_locked_mine:before			{content: "\f08d";}
+.sticky_read:before							{content: "";}
+.sticky_read_mine:before					{content: "";}
+.sticky_read_locked:before					{content: "";}
+.sticky_read_locked_mine:before				{content: "";}
+.sticky_unread:before						{content: "";}
+.sticky_unread_mine:before					{content: "";}
+.sticky_unread_locked:before				{content: "";}
+.sticky_unread_locked_mine:before			{content: "";}
 											/* Right arrow */
-.topic_moved:before							{content: "\f061";}
+.topic_moved:before							{content: "";}
 											/* Envelope */
-.pm_read:before 							{content: "\f0e0";}
-.pm_unread:before 							{content: "\f0e0";}
+.pm_read:before 							{content: "";}
+.pm_unread:before 							{content: "";}
 											/* Speech Bubble */
-.topic_read:before							{content: "\f075";}
-.topic_read_mine:before						{content: "\f075";}
-.topic_read_hot:before						{content: "\f075";}
-.topic_read_hot_mine:before					{content: "\f075";}
-.topic_unread:before						{content: "\f075";}
-.topic_unread_mine:before					{content: "\f075";}
-.topic_unread_hot:before					{content: "\f075";}
-.topic_unread_hot_mine:before				{content: "\f075";}
+.topic_read:before							{content: "";}
+.topic_read_mine:before						{content: "";}
+.topic_read_hot:before						{content: "";}
+.topic_read_hot_mine:before					{content: "";}
+.topic_unread:before						{content: "";}
+.topic_unread_mine:before					{content: "";}
+.topic_unread_hot:before					{content: "";}
+.topic_unread_hot_mine:before				{content: "";}
 											/* Padlock */
-.forum_read_locked:before					{content: "\f023";}
-.forum_unread_locked:before					{content: "\f023";}
-.topic_read_locked:before					{content: "\f023";}
-.topic_read_locked_mine:before				{content: "\f023";}
-.topic_unread_locked:before					{content: "\f023";}
-.topic_unread_locked_mine:before			{content: "\f023";}
+.forum_read_locked:before					{content: "";}
+.forum_unread_locked:before					{content: "";}
+.topic_read_locked:before					{content: "";}
+.topic_read_locked_mine:before				{content: "";}
+.topic_unread_locked:before					{content: "";}
+.topic_unread_locked_mine:before			{content: "";}
 
 
 /* Unread States */
 .global_unread:before, .global_unread_mine:before, .global_unread_locked:before, .global_unread_locked_mine:before, .announce_unread:before, .announce_unread_mine:before, .announce_unread_locked:before, .announce_unread_locked_mine:before, .forum_unread:before, .forum_unread_locked:before, .forum_unread_subforum:before, .sticky_unread:before, .sticky_unread_mine:before, .sticky_unread_locked:before, .sticky_unread_locked_mine:before, .pm_unread:before, .topic_unread:before, .topic_unread_mine:before, .topic_unread_hot:before, .topic_unread_hot_mine:before, .topic_unread_locked:before, .topic_unread_locked_mine:before {
-	animation: UnreadPulse 1.4s infinite;
+	/* animation: UnreadPulse 1.4s infinite; */
 	color: #FFF;
 }
